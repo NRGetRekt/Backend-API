@@ -1,9 +1,9 @@
 <p align="center"><img src="https://github.com/Xenorio/ScamAway/raw/main/logo.png" alt="Logo" width="100"></p>
 
-# Backend API
+## Backend API
 
 ## What's this?
-This is the backend for [Merlin](https://github.com/NRGetRekt/Merlin) Discord Bot
+This is the self-hostable API for [Merlin](https://github.com/NRGetRekt/Merlin) Discord Bot
 
 ## Setup
 - Install [Node.JS](https://nodejs.org)
