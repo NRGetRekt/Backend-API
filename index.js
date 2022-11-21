@@ -134,7 +134,7 @@ async function loadExternalDomains() {
     let response = await fetch(config.external + '/all', {
         method: 'GET',
         headers: {
-            'X-Identity': 'github.com/Xenorio/ScamAway-API'
+            'X-Identity': 'github.com/NRGetRekt/Backend-API' //Read the external API docs in case you wanna change this.
         }
     })
 
@@ -157,7 +157,7 @@ async function refreshExternalDomains() {
     let response = await fetch(config.external + `/recent/${dt}`, {
         method: 'GET',
         headers: {
-            'X-Identity': 'github.com/Xenorio/ScamAway-API'
+            'X-Identity': 'github.com/NRGetRekt/Backend-API' //Read the external API docs in case you wanna change this.
         }
     })
 
