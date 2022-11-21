@@ -10,10 +10,10 @@ module.exports = {
     database: 'mongodb://localhost:27017/',
 
     // Name of the database
-    databaseName: 'ScamAway',
+    databaseName: 'DetectedURLs',
 
     // URL to API documentation
-    docs: 'https://scamaway.xenorio.xyz',
+    docs: '', // No longer maintained
 
     // Discord webhook for reports
     reporthook: 'https://discord.com/api/webhooks/...',
