@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/Xenorio/ScamAway/raw/main/logo.png" alt="Logo" width="100"></p>
+<p align="center"><img src="https://github.com/NRGetRekt/Backend-API/raw/main/logo.png" alt="Logo" width="100"></p>
 
 ## Backend API
 
