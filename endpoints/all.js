@@ -1,12 +1,10 @@
-//Whitelist Malicious URLs, why would you do that?, Right?
-
 const mongo = require('../handlers/mongo')
 
 module.exports.get = async(req, res) => {
 
     let list = []
 
-    for (let entry of process.whitelist) {
+    for (let entry of process.localDomains) {
         list.push({
             domain: entry.domain,
             reason: entry.reason,
